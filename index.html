@@ -399,40 +399,43 @@
       <div class="grid">
         <!-- ============================================================
              EACH .video-card IS A VIDEO SLOT.
-             Replace the <div class="placeholder">...</div> block with a
-             YouTube <iframe> (see instructions in README.md).
+             Google Drive embeds use https://drive.google.com/file/d/FILE_ID/preview
              The 5th card spans the full width as a final highlight.
         ============================================================= -->
         <article class="video-card">
-          <div class="placeholder">
-            <div class="play">
-              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-            </div>
-          </div>
+          <iframe
+            src="https://drive.google.com/file/d/1TLbbLX7YUuKES9fE6KHDL7hmFXcTVIix/preview"
+            title="Video 1"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
         </article>
 
         <article class="video-card">
-          <div class="placeholder">
-            <div class="play">
-              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-            </div>
-          </div>
+          <iframe
+            src="https://drive.google.com/file/d/1ZRBrJFaWwVTMeYtqz_qHnSH32OAl8B9j/preview"
+            title="Video 2"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
         </article>
 
         <article class="video-card">
-          <div class="placeholder">
-            <div class="play">
-              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-            </div>
-          </div>
+          <iframe
+            src="https://drive.google.com/file/d/1-CPP6QhCPHWRWIsC_mtPu2j1owsDyX25/preview"
+            title="Video 3"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
         </article>
 
         <article class="video-card">
-          <div class="placeholder">
-            <div class="play">
-              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-            </div>
-          </div>
+          <iframe
+            src="https://drive.google.com/file/d/1_L1eSrMC1BseQywXIihlJkgOxjKqp0qK/preview"
+            title="Video 4"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
         </article>
 
         <article class="video-card destaque">
@@ -478,7 +481,7 @@
   </footer>
 
   <script>
-    // Copia o ID do Discord ao clicar, sem dependências externas.
+    // Copies the Discord ID on click, no external dependencies.
     (function(){
       var btn = document.getElementById('discord-item');
       var note = document.getElementById('copy-note');
